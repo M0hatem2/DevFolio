@@ -1,0 +1,48 @@
+/* ضبط التصميم العام */
+* {
+   box-sizing: border-box;
+}
+
+body {
+   background-image: linear-gradient(to left, rgb(255, 94, 87), rgb(131, 58, 180));
+   font-family: Arial, sans-serif;
+   color: #333;
+   padding: 0 10px 0 0;
+}
+
+/* تصميم المستخدمين */
+.userContainer .user {
+   margin: 10px;
+   padding: 15px 20px;
+   background-color: white;
+   border-radius: 30px;
+   text-align: center;
+   transition: all 0.3s ease-in-out;
+   cursor: pointer;
+}
+
+.userContainer .user:hover {
+   background-color: #f0f0f0;
+   transform: scale(1.05);
+}
+
+.selected {
+   /* box-shadow: 0 0 20px 5px rgba(0, 255, 0, 0.7); */
+}
+
+/* تصميم بيانات المستخدم */
+.userData {
+   margin: 10px 0;
+   padding: 15px;
+   background-color: white;
+   border-radius: 10px;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* تصميم المنشورات */
+.post {
+   padding: 20px;
+   margin: 15px 0;
+   box-shadow: 0 2px 15px rgb(0 0 0 / 56%);
+   border-radius: 8px;
+}
